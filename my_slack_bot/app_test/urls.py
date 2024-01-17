@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import handle_slack_event, slack_command, slack_submission, event_hook
+from .views import slack_command, slack_submission
 
 urlpatterns = [
     #path('events/', handle_slack_event, name = 'slack_event'),
